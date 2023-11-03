@@ -1,0 +1,368 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+body{
+    height:100vh;
+    width: 100vw;
+    background-color: #0c0a0a;
+    width: min(100vw, 1600px);
+    margin: auto;
+    overflow-x: hidden;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+header{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 10px;
+}
+.head-item{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #25aac895;
+    border-radius: 5px;
+}
+.phone{
+    width: 30%;
+    padding: 10px 20px;
+    border-right: 4px solid #000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.phone h1{
+    font-size: 1.6em;
+    color: #000;
+    margin-bottom: 5px;
+}
+.phone h2{
+    font-size: 1.3em;
+    color: #000000b6;
+}
+.address{
+    width: 30%;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.address h1{
+    font-size: 1.6em;
+    color: #010;
+    margin-bottom: 5px;
+}
+.address h2{
+    font-size: 1.3em;
+    color: #000000b6;
+}
+.email{
+    background: #1c303e;
+    padding: 10px 20px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 5px;
+    width: 40%;
+    align-items: center;
+    color: #fff;
+}
+.email h1{
+    font-size: 1.6em;
+    margin-bottom: 5px;
+    align-self: center;
+}
+.email h2{
+    font-size: 1.3em;
+}
+
+
+.about{
+    width: 100%;
+    display: flex;
+    padding: 0px 10px;
+    margin: 0;
+}
+.left{
+    flex-basis: 74%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #1c303e;
+    padding: 20px 40px;
+    height:400px;
+    border-radius: 5px;
+}
+.left h1{
+    font-size: 4em;
+    width: 90%;
+    font-family: 'Nosifer', sans-serif;
+    font-style: oblique;
+    background-image: radial-gradient( #5cad83,#f7f6f5); 
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+}
+.left h3{
+    font-size: 1.5em;
+    color: #ccc;
+    padding: 0 30px;
+}
+.left p{
+    padding: 0 30px;
+    padding-top: 6px;
+    color: #ccccccc1;
+    
+}
+.about .right{
+    float: left;
+    flex-basis: 50%;
+}
+.right img{
+    width: 100%;
+    height:400px;
+   border-radius: 5px;
+}
+
+.info{
+    width: 100%;
+    display: flex;
+    padding: 0px 10px;
+    margin-top: -4px;
+}
+.education{
+    flex-basis: 78%;
+    background: #25aac895;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+ 
+}
+.edu{
+    width: 80%;
+    /* background: seagreen; */
+    padding: 5px 20px;
+    margin-bottom: 10px;
+}
+.edu h1{
+    font-size: 2em;
+    color: #ccccccd2;
+    margin-bottom: 4px;
+}
+.degree{
+    margin: 10px 0;
+}
+.degree h3{
+    font-size: 1.4em;
+    margin: 2px 0;
+    display: inline-block;
+}
+.degree h4{
+    float: right;
+    opacity: 0.8;
+}
+
+.degree p{
+    font-size: 1.1em;
+    opacity: .9;
+}
+
+.hsc{
+    margin: 10px 0;
+}
+.hsc h3{
+    font-size: 1.4em;
+    margin: 2px 0;
+    display: inline-block;
+}
+.hsc h4{
+    float: right;
+    opacity: 0.8;
+}
+.hsc p{
+    font-size: 1.2em;
+    opacity: .9;
+}
+.ssc h3{
+    font-size: 1.4em;
+    margin: 2px 0;
+    display: inline-block;
+    
+}
+.ssc h4{
+    float: right;
+    opacity: 0.8;
+}
+.ssc p{
+    font-size: 1.2em;
+    opacity: .9;
+}
+
+.project{
+    width: 80%;
+
+    padding: 5px 20px;
+}
+.project h1{
+    font-size: 2em;
+    color: #a3c8d6d2;
+    margin-bottom: 4px;
+}
+
+.project1{
+    margin: 10px 0;
+}
+.project1 h3{
+    font-size: 1.4em;
+    margin: 2px 0;
+    color: #130f17
+}
+.project1 p{
+    font-size: 1em;
+    opacity: .9;
+}
+
+.project2{
+    margin: 10px 0;
+}
+.project2 h3{
+    font-size: 1.4em;
+    margin: 2px 0;
+    color: #130f17;
+}
+.project2 p{
+    font-size: 1em;
+    opacity: .9;
+}
+
+
+.skills{
+    flex-basis: 50%;
+    background:#1c303e;
+    height: auto;
+    padding: 40px;
+    border-radius: 5px;
+}
+.skills h1{
+    font-size: 2em;
+    color: #ccc;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+.skill-list h2{
+    color: #81bced;
+    margin: 10px 0;
+}
+.c{
+    height: 5px;
+    width: 90%;
+    background: linear-gradient(to right,darkgreen 95%, white 95%);
+    display: inline-block;
+}
+.skill-list h3{
+    float: right;
+    color: #dadada;
+}
+.cpp{
+    height: 5px;
+    width: 90%;
+    background: linear-gradient(to right,darkgreen 80%, white 80%);
+    display: inline-block;
+}
+
+.java{
+    height: 5px;
+    width: 90%;
+    background: linear-gradient(to right,darkgreen 75%, white 75%);
+    display: inline-block;
+}
+
+.python{
+    height: 5px;
+    width: 90%;
+    background: linear-gradient(to right,darkgreen 88%, white 88%);
+    display: inline-block;
+}
+
+.html{
+    height: 5px;
+    width: 90%;
+    background: linear-gradient(to right,darkgreen 95%, white 95%);
+    display: inline-block;
+}
+
+.css{
+    height: 5px;
+    width: 90%;
+    background: linear-gradient(to right,darkgreen 90%, white 90%);
+    display: inline-block;
+}
+
+.js{
+    height: 5px;
+    width: 90%;
+    background: linear-gradient(to right,darkgreen 60%, white 60%);
+    display: inline-block;
+}
+
+
+@media (max-width: 768px){
+    .head-item{
+        flex-direction: column;
+
+    }
+    .phone,.address,.email{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-bottom: 2px solid #000;
+        border-right: 0;
+        background-color: #25aac895;
+    }
+    .email{
+        color: #000;
+    }
+    .email h2{
+        color: #000000b6;
+    }
+    .about{
+        flex-direction: column;
+
+    }
+    .left,.right,.right img{
+        width: 100%;
+    }
+    .info{
+        flex-direction: column;
+
+    }
+    .education,.skills{
+        width: 100%;
+    }
+    .left h1{
+        font-size: 2.8em;
+    }
+    header{
+        height: auto;
+    }
+}
